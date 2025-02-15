@@ -10,7 +10,7 @@ jokes=df['text'].tolist()
 engine=create_engine('sqlite:///jokes.db')
 Session = sessionmaker(bind=engine)
 session = Session()
-bot = telebot.TeleBot('7928628883:AAFZDd29ABNVnls-lyZlPeemhNdWSBRJj9Y')
+bot = telebot.TeleBot('11111111111')#paste here token of ur bot
 
 @bot.message_handler(commands=['start'])
 def start(msg):
